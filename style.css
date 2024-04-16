@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --brown:brown;
+}
+body{
+    overflow-x: hidden;
+}
+#logo{
+    width: 100%;
+    height: 90px;
+}
+ul li{
+    font-size: 17px;
+}
+li i{
+    color: rgba(182, 176, 176,0.847);
+}
+li btn{
+    border: 2px;
+    border-color: var(--brown);
+    font-size: 25px;
+}
+#contact{
+    background-color: var(--brown);
+    color: white;
+}
+#contact:hover{
+    background-color: white;
+    color: var(--brown);
+    border-color: var(--brown);
+}
+@media(min-width:992px){
+    ul{
+        display: flex;
+        align-items: center;
+    }
+}
+@media(max-width:992px){
+    li i{
+       display: none;
+       align-items: end;
+    }
+}
+.main{
+   background-image: url("./images/Milano-Koltuk-Takimi-Kirmizi-Gri-40.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.bg{
+    width: 100%;
+    height:100vh;
+    background-color: rgba(64, 63, 63, 0.203);
+}
+.welcome {
+    padding-top: 20%;
+    padding-left: 8%;
+}
+.welcome p{
+    color: white;
+    font-size: 30px;
+}
+.welcome h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+}
+@media(max-width:660px){
+    .welcome h1{
+        font-size: 40px;
+    }
+    .welcome p{
+        font-size: 20px;
+    }
+}
+#contactbtn{
+    color: white;
+    border-color: white;
+}
+.work{
+    margin-top: 5%;  
+    justify-content: center;
+    align-items: center;
+
+}
+.work h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.viewBtn{
+    border-color: var(--brown) 1px solid;
+    color: var(--brown);
+   
+}
+.viewBtn:hover{
+    background-color:var(--brown);
+    color: white;
+    
+}
+#about{
+    background-color: rgb(222, 218, 218);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#aboutImg{
+    border: 7px solid var(--brown);
+    height: 96%;
+    width: 100%;
+   
+}
+#aboutImg img{
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.about h1{
+    font-size: 40px;
+    color: var(--brown);
+    text-align: left;
+
+}
+.hr{
+    width: 26%;
+    height:5px;
+    background-color: var(--brown);
+    border: solid 1px var(--brown);
+
+}
+.about p{
+    text-align: justify;
+}
+.proImg{
+    position: relative;
+
+    }
+.rosewood,.vice-cabinet,.side-table,.valnut-counter,.valnut-chair,.dining-table{
+    width: 40%;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 1px;
+}
+.vice-cabinet{
+    width: 50%;
+    padding: 20px; 
+}
+.side-table{
+    width: 50%;
+    padding: 20px; 
+}
+.valnut-counter{
+    width: 61%;
+    padding: 11px;
+}
+.valnut-chair{
+    width: 61%;
+    padding: 11px;
+}
+testimonial{
+    margin-top: 8%;
+}
+.people{
+    margin-left: 8%;
+    
+}
+.textiImg{
+    width:170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.footer{
+    background-color: black;
+    width:100%;
+   
+    margin-top:8%
+}
